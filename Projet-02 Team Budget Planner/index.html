@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>Team Budget Planner</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welocme To Our E-Commerce Web Site</h1>
+    </header>
+   
+    <section class="inputValues">
+      <ul>
+        <li>
+          <h3>newspaper :</h3>
+          <input id="newspaper" type="number" min="0" step="any" />
+        </li>
+        <li>
+          <h3>Water :</h3>
+          <input id="Water" type="number" min="0" step="any" />
+        </li>
+        <li>
+          <h3>showinggum :</h3>
+          <input id="showinggum" type="number" min="0" step="any" />
+        </li>
+      </ul>
+      <br />
+    </section>
+
+    <section class="outputValues">
+      <div>
+        <button type="button" onclick="getTotalValue();">The Total is ...</button>
+        <span id="Order_Total"></span>
+      </div>
+      
+
+    <!-- </section>
+
+    <section class="content"> -->
+      <table class="table">
+          <thead>
+              <tr>
+                  <th>Item</th>
+                  <th>Price</th>
+              </tr>
+          </thead>
+          <tbody id="expenseTable">
+            <tr>
+              <th>----</th> 
+            </tr>
+            <tr>
+              <th>----</th> 
+            </tr>
+            <tr>
+              <th>----</th> 
+            </tr>
+
+          </tbody>
+      </table>
+  </section>
+   
+
+        
+
+    <footer></footer>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
