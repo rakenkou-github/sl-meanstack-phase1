@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Ignore Folders
+/Projet-01 Team Budget Planner/
+/javascript/
+

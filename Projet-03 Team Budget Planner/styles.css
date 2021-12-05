@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+body {
+    font-family: Fuzzy, sans-serif;
+    
+}
+
+header {
+    background-color: rgb(30, 185, 233);
+    border: 1px solid auto;
+    width: 700px;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+.inputValues {
+    background-color: rgb(221, 136, 120);
+    border: 1px solid auto;
+    width: 680px;
+    padding: 10px;
+    margin-bottom: 20px;
+        
+}
+
+.outputValues {
+    background-color: rgb(71, 199, 167);
+    border: 1px solid auto;
+    width: 650px;
+    padding: 20px 1px 10px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid auto; 
+}
+
+#list, #qty, button  {
+    background-color: rgb(230, 231, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid auto; 
+    width: 170px;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin: 20px;
+}
+
+
+table, th, td {
+    margin-top: 20px;
+    width:  600px;
+    border: 1px solid black;
+}
+
+.total {
+    margin-top: 20px;
+}
+
+
+

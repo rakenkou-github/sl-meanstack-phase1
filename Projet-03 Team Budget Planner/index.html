@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>Team Budget Planner</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welocme To Our E-Commerce Web Site</h1>
+    </header>
+
+    <section class="inputValues">
+      <select name="list" id="list">
+        <option value="3.5">newspaper</option>
+        <option value="1.5">water_drink</option>
+        <option value="3">jus_drink</option>
+        <option value="2.75">milk_one_liter</option>
+        <option value="2.25">chocolate_bar</option>
+        <option value="4.75">protein_bar</option>
+      </select>
+
+      <input id="qty" type="number" />
+      <button type="button" onclick="addToOrder();">Add to Order</button>
+    </section>
+
+    <section class="outputValues">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Qty</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody id="order_Table">
+          <tr>
+            <th>----</th>
+            <th>----</th>
+            <th>----</th>
+          </tr>
+          <tr>
+            <th>----</th>
+            <th>----</th>
+            <th>----</th>
+          </tr>
+          <tr>
+            <th>----</th>
+            <th>----</th>
+            <th>----</th>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="total">
+        <button type="button" onclick="getTotalValue();">
+          The Total is ...
+        </button>
+        <span id="Order_Total"></span>
+      </div>
+    </section>
+
+    <footer></footer>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
